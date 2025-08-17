@@ -123,10 +123,6 @@ This repository is designed to help you learn, practice, and master Data Structu
 │   ├── I-Coins.cpp
 │   ├── L-Deque.cpp
 │   ├── O-Matching.cpp
-│   ├── output
-│   │   ├── I-Coins.exe
-│   │   ├── O-Matching.exe
-│   │   └── U-Grouping.exe
 │   └── U-Grouping.cpp
 ├── BACKTRACKING
 │   ├── backtrackper.cpp
@@ -163,19 +159,13 @@ This repository is designed to help you learn, practice, and master Data Structu
 │   ├── ALGORITHM
 │   │   ├── DIJKSTRA
 │   │   │   ├── dijkstra.cpp
-│   │   │   └── output
-│   │   │       └── dijkstra.exe
 │   │   ├── KRUSKAL
 │   │   │   └── kruskal.cpp
 │   │   ├── PRIMS
-│   │   │   ├── output
-│   │   │   │   └── PrimsAlgorithm.exe
 │   │   │   ├── prim.txt
 │   │   │   ├── PrimsAlgorithm.cpp
 │   │   │   └── PrimsAlgorithm.exe
 │   │   └── TSP
-│   │       ├── output
-│   │       │   └── tsp.exe
 │   │       └── tsp.cpp
 │   ├── BFS AND DFS
 │   │   ├── adjacency_map.cpp
@@ -186,9 +176,6 @@ This repository is designed to help you learn, practice, and master Data Structu
 │   │   ├── shortest_path.cpp
 │   │   └── weighted_adj_list.cpp
 │   ├── CYCLE DETECTION
-│   │   ├── output
-│   │   │   ├── using_bfs.exe
-│   │   │   └── using_dfs.exe
 │   │   ├── USING DSU.CPP
 │   │   ├── using_bfs.cpp
 │   │   └── using_dfs.cpp
@@ -196,8 +183,6 @@ This repository is designed to help you learn, practice, and master Data Structu
 │   │   ├── DSU_min_max_size.cpp
 │   │   └── dsu.cpp
 │   ├── given a grid of nxm size.every.cpp
-│   ├── output
-│   │   └── given a grid of nxm size.every.exe
 │   └── TOPOLOGICAL SORT
 │       └── KAHN_ALGO.CPP
 ├── GREEDY
