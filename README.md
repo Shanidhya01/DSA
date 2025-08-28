@@ -9,7 +9,6 @@ Welcome to the **DSA** repository! This project contains implementations and res
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## About
 
@@ -332,9 +331,6 @@ Contributions are welcome! Please feel free to submit issues and pull requests.
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
