@@ -14,7 +14,8 @@ public:
         vector<int> count1(26, 0), count2(26, 0);
         // Count frequencies of characters in s1
         // and in the first 'n' characters of s2 (initial window)
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {611. Valid Triangle Number
+
             count1[s1[i] - 'a']++;   // frequency of s1
             count2[s2[i] - 'a']++;   // frequency of first window in s2
         }   
