@@ -1,0 +1,11 @@
+# Ignore all output folders anywhere
+**/output/
+
+# Ignore compiled C++ binaries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
