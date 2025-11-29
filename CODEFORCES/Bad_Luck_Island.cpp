@@ -12,7 +12,7 @@
 // Output
 // Print three space-separated real numbers: the probabilities, at which the rocks, the scissors and the 
 // paper will be the only surviving species, respectively. The answer will be considered correct if the
-//  relative or absolute error of each number doesn't exceed 10 - 9.
+// relative or absolute error of each number doesn't exceed 10 - 9.
 
 // Examples
 // Input
