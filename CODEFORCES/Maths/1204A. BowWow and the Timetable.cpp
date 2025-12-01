@@ -52,7 +52,6 @@
 
 // The third example is explained in the statements.
 
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -63,14 +62,18 @@ int main() {
     string s;
     cin >> s;
 
+    int L = (int)s.size();
     if (s == "0") { 
         cout << 0 << '\n';
         return 0;
     }
 
-    int p = (int)s.size() - 1;          
-    int ones = count(s.begin(), s.end(), '1');
-    int ans = p / 2 + (ones > 1 ? 1 : 0);
-    cout << ans << '\n';
+    if (L % 2 == 0) {
+        cout << L / 2 << '\n';
+    } else {
+        bool has_extra = false;
+        for (int i = 1; i < L; ++i) if (s[i] == '1') { has_extra = true; break; }
+        cout << (L - 1) / 2 + (has_extra ? 1 : 0) << '\n';
+    }
     return 0;
 }
