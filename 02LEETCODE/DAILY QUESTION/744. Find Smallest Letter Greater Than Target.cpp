@@ -58,3 +58,16 @@ public:
 		return letters[0];
 	}
 };
+
+// alternative solution 2
+class Solution {
+public:
+    char nextGreatestLetter(vector<char>& letters, char target) {
+        char ans ;
+        sort(letters.begin(),letters.end());
+        for(char c : letters){
+            if(target < c) return c;
+        }
+        return letters[0];
+    }
+};
